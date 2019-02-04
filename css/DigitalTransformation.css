@@ -1,0 +1,277 @@
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeue-BoldItalic.eot');
+    src: url('HelveticaNeue-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeue-BoldItalic.woff2') format('woff2'),
+        url('HelveticaNeue-BoldItalic.woff') format('woff'),
+        url('HelveticaNeue-BoldItalic.ttf') format('truetype'),
+        url('HelveticaNeue-BoldItalic.svg#HelveticaNeue-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeue-Bold.eot');
+    src: url('HelveticaNeue-Bold.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeue-Bold.woff2') format('woff2'),
+        url('HelveticaNeue-Bold.woff') format('woff'),
+        url('HelveticaNeue-Bold.ttf') format('truetype'),
+        url('HelveticaNeue-Bold.svg#HelveticaNeue-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeue-Italic.eot');
+    src: url('HelveticaNeue-Italic.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeue-Italic.woff2') format('woff2'),
+        url('HelveticaNeue-Italic.woff') format('woff'),
+        url('HelveticaNeue-Italic.ttf') format('truetype'),
+        url('HelveticaNeue-Italic.svg#HelveticaNeue-Italic') format('svg');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeue.eot');
+    src: url('HelveticaNeue.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeue.woff2') format('woff2'),
+        url('HelveticaNeue.woff') format('woff'),
+        url('HelveticaNeue.ttf') format('truetype'),
+        url('HelveticaNeue.svg#HelveticaNeue') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+  .bordered-box {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    border: 10px solid #F5F5F5;
+  }
+
+  /* reduce vertical whitespace between components */
+
+  .course-wrapper .course-content .vert-mod .vert>.xblock-student_view, .course-wrapper .courseware-results-wrapper .vert-mod .vert>.xblock-student_view {
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+  }
+
+  .bordered-box .padded-container {
+    padding: 1em;
+    padding-top: 0;
+  }
+
+  .bordered-box .padded-container-quiz {
+    padding: 1em;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .xmodule_display.xmodule_CapaModule div.problem .action .submit-attempt-container {
+    padding-bottom: 0 !important;
+  }
+
+  .xmodule_display.xmodule_HtmlModule h2.header-bar, h2.header-bar {
+    /*font-family: "Open Sans" !important;*/
+    font-family: "Helvetica Neue" !important;
+    padding: 0.5em;
+    font-size: 16px !important;
+    padding-left: 1em;
+    font-weight: 600 !important;
+  }
+
+  .svg-icon {
+    width: 60%;
+    height: auto;
+  }
+
+  .xmodule_display.xmodule_HtmlModule h3, h3.main-heading {
+    font-size: 2.2em !important;
+    font-weight: 1 !important;
+    margin-top: 20px;
+  }
+
+  h2.main-heading {
+    margin-top: 40px;
+  }
+
+  .xmodule_display.xmodule_HtmlModule p.opening-paragraph {
+    /*font-family: "Museo" !important;*/
+    font-family: "Helvetica Neue" !important;
+    font-weight: bold;
+  }
+
+  .problem-header {
+    display: none;
+  }
+
+  .icon-heading {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+  }
+
+  .icon-container {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .icon-container .svg-icon {
+    align-self: flex-start;
+    margin-top: 2em;
+  }
+
+  .icon-title {
+    width: 78%;
+  }
+
+  .time-commitment {
+    margin-top: 3em;
+    margin-left: 4em;
+    margin-right: 4em;
+  }
+
+  .time-commitment p {
+    text-align: center !important;
+  }
+
+  .time-commitment p.operator {
+    font-size: 50px !important;
+    line-height: 100px !important;
+  }
+
+  .time-commitment .svg-icon {
+    width: 90px;
+    height: auto;
+    margin-left: 0px;
+  }
+
+  .time-commitment p.label {
+    font-size: 14px !important;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 0px;
+  }
+
+  .time-commitment p.duration {
+    font-size: 24px !important;
+    font-weight: bold;
+    margin-top: 0px !important;
+    /*font-family: "Museo" !important;*/
+    font-family: "Helvetica Neue" !important;
+    margin-bottom: 0px !important;
+  }
+
+  h2.header-bar, div.header-bar {
+    min-height: 38px;
+  }
+
+  h2.unit-title, div.bookmark-button-wrapper {
+    display: none;
+  }
+
+  div.bordered-box ul, div.bordered-box ol {
+    font-size: 1.125em;
+    margin-left: 50px !important;
+  }
+
+  div.bordered-box ul ul, div.bordered-box ul ol, div.bordered-box ol ul, div.bordered-box ol ol {
+    font-size: 100%;
+  }
+
+  div.bordered-box .callout {
+    /*background-color: #bfddff;*/
+    background-color: #f5f5f5;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5em 1.5em;
+    padding-bottom: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+  }
+
+  /* fix problem with tooltips hidden behind content */
+
+  .xmodule_display.xmodule_SequenceModule .sequence-nav {
+    z-index: 1 !important;
+  }
+
+  .callout-left {
+    float: left;
+    width: 50%;
+    padding-right: 1em;
+    margin-bottom: 10px;
+  }
+
+  .xmodule_display.xmodule_HtmlModule .callout-left p {
+    /*font-family: Museo !important;*/
+    font-family: "Helvetica Neue" !important;
+    font-size: 30px !important;
+    line-height: 38px !important;
+    font-weight: 500 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .milestone-activity {
+    border-left: 20px solid #00DCB4;
+    padding-left: 1em;
+  }
+
+  /* headings style overrides - potato stamp only */
+
+  .xmodule_display.xmodule_HtmlModule h1, .xmodule_display.xmodule_HtmlModule h2, .xmodule_display.xmodule_HtmlModule h3, .xmodule_display.xmodule_HtmlModule h4 {
+    color: #000054 !important;
+    /*font-family: Museo !important;*/
+    font-family: "Helvetica Neue" !important;
+    line-height: 1.4em!important;
+    margin-bottom: 15px!important;
+  }
+
+  .xmodule_display.xmodule_HtmlModule h1 {
+    font-size: 1.6em !important;
+    font-weight: 700 !important;
+  }
+
+  .xmodule_display.xmodule_HtmlModule h2 {
+    font-size: 1.5em !important;
+    font-weight: 600 !important;
+  }
+
+  .xmodule_display.xmodule_HtmlModule h3 {
+    font-size: 1.3em !important;
+    font-weight: 600 !important;
+  }
+
+  .xmodule_display.xmodule_HtmlModule h4 {
+    /*font-family: "Open Sans" !important;*/
+    font-family: "Helvetica Neue" !important;
+    font-weight: bold !important;
+    font-size: 1.125em !important;
+    color: #000054 !important;
+  }
+
+
+  .xmodule_display.xmodule_HtmlModule *{
+    font-family: "Helvetica Neue", arial, verdana, sans-serif !important;
+  }
+
+
+  .xmodule_display.xmodule_HtmlModule code, .xmodule_display.xmodule_HtmlModule code *{
+    font-family: monospace, serif !important;
+  }
+
+  .xblock .colour-button, #tinymce .colour-button {
+    font-weight: bold!important;
+  }
+
+  .xmodule_display.xmodule_HtmlModule ol, .xmodule_display.xmodule_HtmlModule ol li, .xmodule_display.xmodule_HtmlModule p, .xmodule_display.xmodule_HtmlModule ul, .xmodule_display.xmodule_HtmlModule ul li {
+    font-family: "Helvetica Neue", arial, verdana, sans-serif !important;
+  }

@@ -1,0 +1,47 @@
+/* Tidies up the standard EDX quiz problems */
+
+.problem-progress, .notification.error.notification-submit, .notification.success.notification-submit, .problem-action-btn {
+    display: none !important;
+  }
+
+legend, .problem-group-label {
+    /*font-family: "Open Sans", Verdana, Geneva, sans-serif, sans-serif!important;*/
+    font-size: 1.125em !important;
+  }
+
+.indicator-container {
+  width: 100%!important;
+}
+
+span.status.incorrect::after {
+  content: " Incorrect";
+}
+
+span.status.correct::after {
+  content: " Correct!";
+}
+
+.wrapper-problem-response select {
+  margin-bottom: 1em;
+}
+
+div.problem {
+  margin-bottom: 2em!important;
+  padding-top: 10px!important;
+}
+
+.problem-header {
+  margin-bottom: 0px!important;
+}
+
+.problem .inputtype.option-input {
+  margin-bottom: 0px!important;
+}
+
+.any-text-input span.status.correct::after {
+  content: "";
+}
+
+div.problem *{
+  font-family: "Helvetica Neue" !important;
+}
