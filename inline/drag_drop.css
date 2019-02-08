@@ -1,0 +1,110 @@
+.xblock--drag-and-drop {
+    max-width: none;
+}
+
+p.zone-name {
+  position: absolute;
+  width: 100% !important;
+  font-size: 16px !important;
+  font-weight: bold !important;
+  text-align: center !important;
+  margin-top: -35px !important;
+  margin-bottom: 0 !important;
+  font-weight: 500 !important;
+  font-size: 1.375em !important;
+  color: #000054 !important;
+}
+
+.xblock--drag-and-drop .drag-container {
+  background-color: #FFF !important;
+  padding: 0!important;
+}
+
+.xblock--drag-and-drop .item-bank {
+  background-color: #FFF !important;
+}
+
+.xblock--drag-and-drop .zone .item-wrapper {
+    padding: 10px!important;
+}
+
+.xblock--drag-and-drop .drag-container .option .item-content, p.message {
+  font-size: 1.125em !important;
+  font-family:not(p): "Helvetica Neue" !important;
+}
+
+.keyboard-help-button {
+  display: none;
+}
+
+h3.problem-title {
+  font-weight: 600 !important;
+  font-size: 1.5em !important;
+  color: #000054 !important;
+  /*font-family: Museo !important;*/
+  margin-top: 20px;
+}
+
+.xblock--drag-and-drop .feedback {
+  border-top: none!important;
+}
+
+.xblock--drag-and-drop .title1 {
+  /*font-family: Museo !important;*/
+  font-weight: 500 !important;
+  font-size: 1.375em !important;
+  color: #000054 !important;
+  text-transform: capitalize;
+}
+
+.feedback-content {
+  margin-top: -56px;
+}
+
+.xblock--drag-and-drop .feedback p {
+    border: 2px solid #EBEBEB;
+}
+
+.xblock--drag-and-drop .zone .item-align-center .option {
+    margin-bottom: 10px;
+    border-radius: 10px!important;
+}
+
+.xblock--drag-and-drop .drag-container .option {
+    margin-bottom: 10px;
+    border-radius: 10px!important;
+}
+
+.xblock--drag-and-drop .popup {
+    top: 20%;
+    border: 1px solid #fff;
+    background-color: #000;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.xblock--drag-and-drop .popup.popup-incorrect {
+  color: #FFF;
+  background-color: #e60028;
+}
+
+.xblock--drag-and-drop .target-img {
+  visibility: hidden;
+}
+
+.xblock--drag-and-drop .zone-with-borders {
+    border: 1px solid #EBEBEB;
+    border-radius: 3px;
+}
+
+.ltr .xblock--drag-and-drop .actions-toolbar .action-toolbar-item.sidebar-buttons {
+    float: right!important;
+    padding-right: -5px!important;
+    padding-top: 0px!important;
+}
+
+.xblock--drag-and-drop *:not(.fa) {
+    font-family: "Helvetica Neue" !important;
+}

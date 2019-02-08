@@ -1,0 +1,50 @@
+.power-heading {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .power-heading #background-tint {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+  }
+
+  #power-heading-2.power-heading h2 {
+    position: absolute;
+    top: 60%;
+    left: 4%;
+  }
+
+  .power-heading h2:before {
+    content: "\2014\A";
+    white-space: pre-line;
+  }
+
+  .xmodule_display.xmodule_HtmlModule #power-heading-2.power-heading h2 {
+    font-size: 2em !important;
+  }
+
+  .power-heading .rmit-shape {
+    position: absolute;
+  }
+
+  #power-heading-2.power-heading #rmit-shape-1 {
+    bottom: -1px;
+    left: 0;
+    width: 32%;
+    transform: rotate(-90deg);
+  }
+
+  #power-heading-2.power-heading #rmit-shape-2 {
+    top: 0;
+    right: 0;
+    width: 18%;
+    transform: rotate(270deg);
+  }
+
+  .content-more {
+    display: none;
+  }

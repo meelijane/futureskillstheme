@@ -1,0 +1,22 @@
+.accordion-heading h3::before{
+    content: '';
+    background:url('/static/triangle_closed.svg');
+ 			background-size: cover;
+    width: 20px;
+ 		 height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -2px;
+    margin-right: 4px;
+  }
+  .accordion-heading.on h3::before{
+    content: '';
+    background:url('/static/triangle_open.svg');
+    background-size: cover;
+    width: 20px;
+ 		 height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -4px;
+    margin-right: 4px;
+  }

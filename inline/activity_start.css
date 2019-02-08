@@ -1,0 +1,35 @@
+.header-info {
+ max-width: 55%;
+ height: 160px;
+ display: flex;
+ align-items: center;
+}
+ 
+ 
+.course-wrapper .course-content .vert-mod>div ul.unchecked-boxes, .course-wrapper .courseware-results-wrapper .vert-mod>div ul.unchecked-boxes {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  div.bordered-box ul.unchecked-boxes, div.bordered-box ol.unchecked-boxes {
+    margin-left: 5px !important;
+}
+  
+  ul.unchecked-boxes li {
+    overflow: visible;
+    padding-left: 1.75em;
+    position: relative;
+}
+
+ ul.unchecked-boxes li:before {
+   content: "";
+   display: inline-block;
+   height: 1.5em;
+   width: 1.5em;
+   position: absolute;
+   top: -1px;
+   left: -0.25em;
+   background-image: url("/static/tickbox_unchecked.png");
+   background-size: contain;
+   background-repeat: no-repeat;
+}

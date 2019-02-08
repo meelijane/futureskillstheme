@@ -1,0 +1,13 @@
+#calendar-button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    color: #000053;
+    background-color: #FC9147; 
+    border: none; 
+    border-radius: 999px; 
+    width: 200px;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+  }

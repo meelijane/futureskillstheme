@@ -1,0 +1,38 @@
+table.printworthy {
+    border-collapse: collapse;
+  }
+
+  table.printworthy th {
+    text-align: left;
+    font-family: "Museo";
+    font-weight: 500!important;
+    font-size: 1.375em !important;
+    color: #000054;
+    background-color: #F5F5F5;
+    overflow: hidden;
+  }
+
+  table.printworthy th {
+    border-left: none!important;
+    border-right: none!important;
+  }
+
+  table.printworthy th:first-child {
+    border-left: 1px solid #c8c8c8!important;
+  }
+
+  table.printworthy th:last-child {
+    border-right: 1px solid #c8c8c8!important;
+  }
+
+  table.printworthy td{
+    height: 80px;
+  }
+
+  table.printworthy tr:nth-child(odd) {
+    background: #FAFAFA;
+  }
+
+  table.printworthy td:nth-child(1) {
+    background: #F5F5F5;
+  }

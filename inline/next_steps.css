@@ -1,0 +1,28 @@
+.link-thumbnail {
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #link-thumbnail-1 {
+    background-image: url("/static/var-applicationsism.jpg");
+  }
+
+  #link-thumbnail-2 {
+    background-image: url("/static/next_steps_1.jpg");
+  }
+
+  #link-thumbnail-3 {
+    background-image: url("/static/next_steps_2.jpg");
+  }
+
+  #link-thumbnail-4 {
+    background-image: url("/static/next_steps_3.jpg");
+  }
+
+  #link-thumbnail-5 {
+    background-image: url("/static/next_steps_4.jpg");
+  }

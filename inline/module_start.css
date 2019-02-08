@@ -1,0 +1,58 @@
+.header-info {
+ max-width: 55%;
+ height: 160px;
+ display: flex;
+ align-items: center;
+}
+ 
+.time-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .time-row {
+    margin-top: 2em;
+  }
+
+  .aa_col_01 {
+    width: 10%;
+  }
+
+  .aa_col_02 {
+    width: 66%;
+    position: relative;
+  }
+
+  .aa_col_03 {
+    width: 14%;
+    position: relative;
+  }
+
+  p.aa_clock_time {
+    text-align: center;
+    margin: 0!important;
+
+  }
+
+  .xmodule_display.xmodule_HtmlModule p.time-text {
+    /*font-family: "museo"!important;*/
+  }
+
+  .aa_vertical_centre_left {
+    position: absolute;
+    top: 46%;
+    left: 0%;
+    transform: translate(0%, -46%);
+  }
+
+  .aa_vertical_centre_right {
+    position: absolute;
+    top: 44%;
+    right: 0%;
+    transform: translate(0%, -46%);
+    margin-right: 1em;
+  }
+
+  .aa_col_01 .svg-icon {
+    margin-top: 0em;
+  }

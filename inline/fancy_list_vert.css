@@ -1,0 +1,48 @@
+  ol.progression-vertical {
+    list-style-type: none!important;
+    margin: 0!important;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  div.bordered-box ol.progression-vertical {
+     margin-left: 0!important;  
+     padding-left: 0!important;  
+  }
+
+  ol.progression-vertical li {
+    width: 100%;
+    padding: 16px;
+    background-color: #eee;
+    position: relative;
+    text-align: center;
+  }
+
+  ol.progression-vertical li.on {
+    background-color: #0078FF;
+  }
+
+  ol.progression-vertical li.on p{
+    color: #FFF!important;
+  }
+
+ol.progression-vertical li:not(:last-child):before {
+	content: "";
+	height: 0;
+	bottom: -45px;
+  border: 32px solid transparent;
+  border-top: 32px solid #eee;
+  z-index: 2;
+  position: absolute;
+  margin-left: -32px;
+}
+
+ol.progression-vertical li.on:before {
+  border-top: 32px solid #0078FF;
+}
+
+ol.progression-vertical li p {
+  text-align: center;
+  margin-bottom: 0!important;
+}
