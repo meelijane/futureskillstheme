@@ -1,0 +1,22 @@
+.svg-icon-container {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    float: left;
+  }
+
+  .svg-icon-container p, .svg-icon-container img, .svg-icon-container svg{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .svg-icon {
+    width: 100px;
+    height: auto;
+    margin-right: 32px;
+  }
+
+  .hide-me {
+    display: none;
+  }

@@ -1,0 +1,16 @@
+.link-thumbnail {
+    width: 100%;
+    padding-top: 100%;
+    overflow: hidden;
+    background-color: #FAFAFA;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #link-thumbnail-1 {
+    background-image: url("/static/slack-logo-square.png");
+  }
+
+  #link-thumbnail-2 {
+    background-image: url("/static/zoom-logo-square.png");
+  }

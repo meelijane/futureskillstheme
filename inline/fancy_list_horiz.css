@@ -1,0 +1,96 @@
+  ol.progression-horizontal {
+    list-style-type: none!important;
+    margin: 0!important;
+    overflow: hidden;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  div.bordered-box ol.progression-horizontal {
+     margin-left: 0!important;  
+  }
+
+  ol.progression-horizontal li {
+    width: 100%;
+    padding: 16px 0 16px 60px;
+    background-color: #eee;
+    position: relative;
+    flex: 0 1 auto;
+  }
+
+  ol.progression-horizontal li.on {
+    background-color: #0078FF;
+  }
+
+  ol.progression-horizontal li.on p{
+    color: #FFF!important;
+  }
+
+  ol.progression-horizontal li.on:after {
+      border-color: transparent transparent transparent #0078FF;
+  }
+
+  ol.progression-horizontal li:first-child {
+    padding-left: 20px;
+  }
+
+  ol.progression-horizontal li:first-child p{
+    /*margin-left: 16px;*/
+  }
+
+  ol.progression-horizontal li:before {
+    border-color: transparent transparent transparent #fff;
+  }
+
+  ol.progression-horizontal li:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 50px 0 50px 55px;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    margin-left: 4px;
+    left: 100%;
+    z-index: 1;
+  }
+
+  ol.progression-horizontal li:after {
+    border-left-color: #0078FF;
+  }
+
+  ol.progression-horizontal li:after {
+    border-color: transparent transparent transparent #eee;
+  }
+
+  ol.progression-horizontal li:after {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-width: 50px 0 50px 55px;
+    border-style: solid;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 1;
+  }
+
+  .xmodule_display.xmodule_HtmlModule ol.progression-horizontal li, .xmodule_display.xmodule_HtmlModule ol.progression-horizontal li p {
+      margin-bottom: 0;
+      text-align: center;
+  }
+
+ .xmodule_display.xmodule_HtmlModule ol.progression-horizontal li p {
+      margin-left: 16px;
+  }
+
+  .xmodule_display.xmodule_HtmlModule ol.progression-horizontal {
+    padding: 0;
+    padding-right: 55px;
+  }

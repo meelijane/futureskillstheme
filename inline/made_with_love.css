@@ -1,0 +1,10 @@
+#made-with-love-container {
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1em;
+  }
+  #made-with-love p{
+    text-align: center;
+    font-size: 1.5em!important;
+  }

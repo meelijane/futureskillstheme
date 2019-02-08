@@ -1,0 +1,56 @@
+table#blue-bijou {
+    border-collapse: collapse;
+  }
+
+  table#blue-bijou th {
+    padding-top: 1em;
+    padding-bottom: 0em;
+    padding-right: 2em;
+    background: none;
+    border: none;
+  }
+
+  table#blue-bijou td {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    border: none;
+  }
+
+  table#blue-bijou th {
+    text-align: left;
+    font-family: "Museo";
+    font-weight: 500;
+    font-size: 1.375em;
+    color: #000054;
+    overflow: hidden;
+  }
+
+  table#blue-bijou tr:first-child {
+    border-bottom: none;
+  }
+
+  table#blue-bijou tr:first-child th:after {
+      content: "";
+      display: block;
+      width: 100%;
+      padding-top: 20px;
+      border-bottom: 4px solid #0078ff;
+  }
+
+  table#blue-bijou tr:first-child th:last-child:after {
+      width: 200%;
+  }
+
+  table#blue-bijou th:nth-child(1) {
+    width: 25%;
+  }
+
+  table#blue-bijou th:nth-child(3) {
+    width: 25%;
+  }
+
+  table#blue-bijou tr {
+    vertical-align: top;
+    border-bottom: 2px solid #0078ff;
+  }

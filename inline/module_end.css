@@ -1,0 +1,38 @@
+.time-row {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .time-row {
+    margin-top: 2em;
+  }
+
+  .aa_col_01 {
+    width: 10%;
+  }
+
+  .aa_col_02 {
+    width: 90%;
+    position: relative;
+  }
+
+
+
+  .aa_vertical_centre_left {
+    position: absolute;
+    top: 46%;
+    left: 0%;
+    transform: translate(0%, -46%);
+  }
+
+  .aa_vertical_centre_right {
+    position: absolute;
+    top: 44%;
+    right: 0%;
+    transform: translate(0%, -46%);
+    margin-right: 1em;
+  }
+
+  .aa_col_01 .svg-icon {
+    margin-top: 0em;
+  }
