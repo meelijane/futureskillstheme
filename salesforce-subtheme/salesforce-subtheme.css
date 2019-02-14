@@ -19,6 +19,13 @@
   font-weight: bold;
 }
 
+.salesforce-box p {
+  margin-bottom: 0 none;
+  font-size: 1em!important;
+  padding-left: 3px;
+}
+
+
 .clickpath {
   background-color: var(--lightyellow);
 }
