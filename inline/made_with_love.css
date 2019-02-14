@@ -7,4 +7,5 @@
   #made-with-love p{
     text-align: center!important;
     font-size: 1.5em!important;
+    display: block;
   }
