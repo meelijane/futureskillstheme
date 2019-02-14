@@ -19,38 +19,45 @@
   font-weight: bold;
 }
 
-.clickpath {
+.salesforce-box p {
+  margin-bottom: 0 none;
+  font-size: 1em!important;
+  padding-left: 3px;
+}
+
+
+.sf-clickpath {
   background-color: var(--lightyellow);
 }
 
-.clickpath::before {
+.sf-clickpath::before {
   content: "CLICK PATH";
   background-image: url('mousepointer.svg');
 }
 
-.note {
+.sf-note {
   background-color: var(--lightgreen);
 }
 
-.note::before {
+.sf-note::before {
   content: "NOTE";
   background-image: url('notebook.svg');
 }
 
-.alert {
+.sf-alert {
   background-color: var(--lightblue);
 }
 
-.alert::before {
+.sf-alert::before {
   content: "ALERT";
   background-image: url('exclamationmark.svg');
 }
 
-.definition {
+.sf-definition {
   background-color: var(--lightpurple);
 }
 
-.definition::before {
+.sf-definition::before {
   content: "DEFINITION";
   background-image: url('questionmark.svg');
 }
