@@ -24,7 +24,7 @@
 }
 
 .clickpath::before {
-  content: "CLICKPATH";
+  content: "CLICK PATH";
   background-image: url('mousepointer.svg');
 }
 
