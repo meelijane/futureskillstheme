@@ -1,0 +1,56 @@
+/* Set up some nice names for colours. */
+:root {
+  --lightyellow: #fdf1bf;
+  --lightgreen: #bff6ec;
+  --lightblue: #bfe9ff;
+  --lightpurple: #f1d8f1;
+}
+
+/* We made some boxes with variants. Each one has a title and image. */
+.salesforce-box {
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.salesforce-box::before {
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.clickpath {
+  background-color: var(--lightyellow);
+}
+
+.clickpath::before {
+  content: "CLICKPATH";
+  background-image: url('mousepointer.svg');
+}
+
+.note {
+  background-color: var(--lightgreen);
+}
+
+.note::before {
+  content: "NOTE";
+  background-image: url('notebook.svg');
+}
+
+.alert {
+  background-color: var(--lightblue);
+}
+
+.alert::before {
+  content: "ALERT";
+  background-image: url('exclamationmark.svg');
+}
+
+.definition {
+  background-color: var(--lightpurple);
+}
+
+.definition::before {
+  content: "DEFINITION";
+  background-image: url('questionmark.svg');
+}
