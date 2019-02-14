@@ -1,0 +1,7 @@
+/* Use this class on a div around an image that you want to centre. */
+.centred-image {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
