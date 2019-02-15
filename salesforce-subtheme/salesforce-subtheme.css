@@ -20,7 +20,7 @@
 }
 
 .salesforce-box p {
-  margin-bottom: 0 none;
+  margin-bottom: 0!important;
   font-size: 1em!important;
   padding-left: 3px;
 }
