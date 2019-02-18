@@ -9,35 +9,57 @@
   </head>
   <body>
 
-    <!-- https://www.freeformatter.com/html-escape.html#ad-output is your friend -->
-
     <h1>Component library</h1>
     <h2>Future Skills base theme</h2>
     <h3>Centred-image box</h3>
     <pre><code data-language="html">
-      &lt;script&gt;// &lt;![CDATA[
-  $(&quot;head&quot;).append('&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;https://millyschmidt.me/futureskillstheme/css/layout-helpers.css&quot;&gt;');
-  // ]]&gt;&lt;/script&gt;
-      &lt;div class=&quot;centred-image&quot;&gt;&lt;img src=&quot;https://placekitten.com/300/200&quot; /&gt;&lt;/div&gt;
+      <script>// <![CDATA[
+  $("head").append('<link type="text/css" rel="stylesheet" href="https://millyschmidt.me/futureskillstheme/css/layout-helpers.css">');
+  // ]]></script>
+
+    <div class="centred-image">
+      <img src="https://placekitten.com/300/200" />
+    </div>
     </code></pre>
-      <div class="centred-image"><img src="https://placekitten.com/300/200" /></div>
+      <div class="centred-image">
+        <img src="https://placekitten.com/300/200" />
+      </div>
+
+      <h3>Image caption</h3>
+      <pre><code data-language="html">
+        <script>// <![CDATA[
+    $("head").append('<link type="text/css" rel="stylesheet" href="https://millyschmidt.me/futureskillstheme/css/layout-helpers.css">');
+    // ]]></script>
+
+    <figure>
+      <img src="https://placekitten.com/400/500" />
+      <figcaption>This is a kitten and it's perfect.</figcaption>
+    </figure>
+      </code></pre>
+        <figure>
+          <img src="https://placekitten.com/400/500" />
+          <figcaption>This is a kitten and it's perfect.</figcaption>
+        </figure>
+
+
     <h2>Salesforce subtheme</h2>
     <pre><code data-language="html">
-      &lt;script&gt;// &lt;![CDATA[
-  $(&quot;head&quot;).append('&lt;link type=&quot;text/css&quot; rel=&quot;stylesheet&quot; href=&quot;https://millyschmidt.me/futureskillstheme/css/layout-helpers.css&quot;&gt;');
-  // ]]&gt;&lt;/script&gt;
-      &lt;div class=&quot;salesforce-box clickpath&quot;&gt;
-        &lt;p&gt;Click this &gt; then this &gt; then this &gt; then this&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;salesforce-box note&quot;&gt;
-        &lt;p&gt;Note! There are notes in this course.&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;salesforce-box alert&quot;&gt;
-        &lt;p&gt;Watch out for bears!&lt;/p&gt;
-      &lt;/div&gt;
-      &lt;div class=&quot;salesforce-box definition&quot;&gt;
-        &lt;p&gt;The capybara is a mammal native to South America. It is the largest living rodent in the world. Also called chig&uuml;ire, chig&uuml;iro and carpincho, it is a member of the genus Hydrochoerus, of which the only other extant member is the lesser capybara.&lt;/p&gt;
-      &lt;/div&gt;
+      <script>// <![CDATA[
+  $("head").append('<link type="text/css" rel="stylesheet" href="https://millyschmidt.me/futureskillstheme/salesforce-subtheme/salesforce-subtheme.css">');
+  // ]]></script>
+
+  <div class="salesforce-box clickpath">
+    <p>Click this > then this > then this > then this</p>
+  </div>
+  <div class="salesforce-box note">
+    <p>Note! There are notes in this course.</p>
+  </div>
+  <div class="salesforce-box alert">
+    <p>Watch out for bears!</p>
+  </div>
+  <div class="salesforce-box sf-definition">
+    <p>The capybara is a mammal native to South America. It is the largest living rodent in the world. Also called chigüire, chigüiro and carpincho, it is a member of the genus Hydrochoerus, of which the only other extant member is the lesser capybara.</p>
+  </div>
     </code></pre>
 
     <div class="salesforce-box clickpath">
@@ -49,7 +71,7 @@
     <div class="salesforce-box alert">
       <p>Watch out for bears!</p>
     </div>
-    <div class="salesforce-box definition">
+    <div class="salesforce-box sf-definition">
       <p>The capybara is a mammal native to South America. It is the largest living rodent in the world. Also called chigüire, chigüiro and carpincho, it is a member of the genus Hydrochoerus, of which the only other extant member is the lesser capybara.</p>
     </div>
 
