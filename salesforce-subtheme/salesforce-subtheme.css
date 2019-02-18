@@ -4,6 +4,7 @@
   --lightgreen: #bff6ec;
   --lightblue: #bfe9ff;
   --lightpurple: #f1d8f1;
+  --lightred: #ffdfe5;
 }
 
 /* We made some boxes with variants. Each one has a title and image. */
@@ -45,7 +46,7 @@
 }
 
 .sf-alert {
-  background-color: var(--lightblue);
+  background-color: var(--lightred);
 }
 
 .sf-alert::before {
@@ -54,7 +55,7 @@
 }
 
 .sf-definition {
-  background-color: var(--lightpurple);
+  background-color: var(--lightblue);
 }
 
 .sf-definition::before {
