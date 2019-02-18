@@ -13,17 +13,20 @@
     <h2>Future Skills base theme</h2>
     <h3>Centred-image box</h3>
     <pre><code data-language="html">
-      <script>// <![CDATA[
-  $("head").append('<link type="text/css" rel="stylesheet" href="https://millyschmidt.me/futureskillstheme/css/layout-helpers.css">');
-  // ]]></script>
+      <!-- Include the base theme styles. -->
+      <script>
+        $("head").append('<link type="text/css" rel="stylesheet" href="https://millyschmidt.me/futureskillstheme/css/layout-helpers.css">');
+      </script>
 
-    <div class="centred-image">
-      <img src="https://placekitten.com/300/200" />
-    </div>
+      <div class="centred-image">
+        <img src="https://placekitten.com/300/200" />
+      </div>
+
     </code></pre>
       <div class="centred-image">
         <img src="https://placekitten.com/300/200" />
       </div>
+
 
       <h3>Image caption</h3>
       <pre><code data-language="html">
@@ -36,6 +39,7 @@
       <figcaption>This is a kitten and it's perfect.</figcaption>
     </figure>
       </code></pre>
+    
         <figure>
           <img src="https://placekitten.com/400/500" />
           <figcaption>This is a kitten and it's perfect.</figcaption>
@@ -44,37 +48,39 @@
 
     <h2>Salesforce subtheme</h2>
     <pre><code data-language="html">
-      <script>// <![CDATA[
-  $("head").append('<link type="text/css" rel="stylesheet" href="https://millyschmidt.me/futureskillstheme/salesforce-subtheme/salesforce-subtheme.css">');
-  // ]]></script>
 
-  <div class="salesforce-box clickpath">
-    <p>Click this > then this > then this > then this</p>
-  </div>
-  <div class="salesforce-box note">
-    <p>Note! There are notes in this course.</p>
-  </div>
-  <div class="salesforce-box alert">
-    <p>Watch out for bears!</p>
-  </div>
-  <div class="salesforce-box sf-definition">
-    <p>The capybara is a mammal native to South America. It is the largest living rodent in the world. Also called chigüire, chigüiro and carpincho, it is a member of the genus Hydrochoerus, of which the only other extant member is the lesser capybara.</p>
-  </div>
+      <!-- Include the Salesforce subtheme styles. -->
+      <script>
+        $("head").append('<link type="text/css" rel="stylesheet" href="https://millyschmidt.me/futureskillstheme/salesforce-subtheme/salesforce-subtheme.css">');
+      </script>
+
+      <div class="salesforce-box sf-clickpath">
+        <p>Click this > then this > then this > then this</p>
+      </div>
+      <div class="salesforce-box sf-note">
+        <p>Note! There are notes in this course.</p>
+      </div>
+      <div class="salesforce-box sf-alert">
+        <p>Watch out for bears!</p>
+      </div>
+      <div class="salesforce-box sf-definition">
+        <p>The capybara is a mammal native to South America. It is the largest living rodent in the world. Also called chigüire, chigüiro and carpincho, it is a member of the genus Hydrochoerus, of which the only other extant member is the lesser capybara.</p>
+      </div>
+      
     </code></pre>
 
-    <div class="salesforce-box clickpath">
+    <div class="salesforce-box sf-clickpath">
       <p>Click this > then this > then this > then this</p>
     </div>
-    <div class="salesforce-box note">
+    <div class="salesforce-box sf-note">
       <p>Note! There are notes in this course.</p>
     </div>
-    <div class="salesforce-box alert">
+    <div class="salesforce-box sf-alert">
       <p>Watch out for bears!</p>
     </div>
     <div class="salesforce-box sf-definition">
       <p>The capybara is a mammal native to South America. It is the largest living rodent in the world. Also called chigüire, chigüiro and carpincho, it is a member of the genus Hydrochoerus, of which the only other extant member is the lesser capybara.</p>
     </div>
-
 
 
     <script src="code-highlighting/rainbow-custom.min.js"></script>
