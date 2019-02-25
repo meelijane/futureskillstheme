@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>HTML components w/ css for future skills</title>
     <link rel="stylesheet" href="css/layout-helpers.css">
+    <link rel="stylesheet" href="css/typography.css">
     <link rel="stylesheet" href="salesforce-subtheme/salesforce-subtheme.css">
     <link rel="stylesheet" type="text/css" href="code-highlighting/monokai.css">
   </head>
@@ -11,6 +12,37 @@
 
     <h1>Component library</h1>
     <h2>Future Skills base theme</h2>
+    <h3>Fonts</h3>
+    <pre><code data-language="html">
+      <!-- Include the fonts. -->
+      <script>
+        $("head").append('<link type="text/css" rel="stylesheet" href="https://millyschmidt.me/futureskillstheme/css/fonts.css">');
+        // In the future, we should add our actual basic font styling in to this file.
+      </script>
+
+      <p>Some text etc.</p>
+    </code></pre>
+
+    <h1>This is not a story about a dog</h1>
+    <p>
+      These are the voyages of the Starship Enterprise. Its continuing mission, to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before. We need to neutralize the homing signal. Each unit has total environmental control, gravity, temperature, atmosphere, light, in a protective field. Sensors show energy readings in your area. We had a forced chamber explosion in the resonator coil. Field strength has increased by 3,000 percent.
+    </p>
+
+    <h2>This is a great subheading</h2>
+    <p>
+      Resistance is futile.
+    </p>
+
+    <h3>Subheadings within subheadings...</h3>
+    <p>
+      These are the voyages of the Starship Enterprise. Its continuing mission, to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no one has gone before. We need to neutralize the homing signal. Each unit has total environmental control, gravity, temperature, atmosphere, light, in a protective field. Sensors show energy readings in your area. We had a forced chamber explosion in the resonator coil. Field strength has increased by 3,000 percent.
+    </p>
+
+    <h4>It's a great day to be a subheading</h4>
+    <h5>It's a great day to be a subheading</h5>
+    <h6>It's a great day to be a subheading</h6>
+
+
     <h3>Centred-image box</h3>
     <pre><code data-language="html">
       <!-- Include the base theme styles. -->
@@ -74,7 +106,7 @@
       <div class="salesforce-box sf-definition">
         <p>The capybara is a mammal native to South America. It is the largest living rodent in the world. Also called chigüire, chigüiro and carpincho, it is a member of the genus Hydrochoerus, of which the only other extant member is the lesser capybara.</p>
       </div>
-      
+
     </code></pre>
 
     <div class="salesforce-box sf-clickpath">
